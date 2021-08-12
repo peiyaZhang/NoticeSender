@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 10 16:24:19 2021
-
-@author: ASUS
-"""
 
 import xlrd
 
@@ -36,4 +31,5 @@ class ExcelReader():
 if __name__ == '__main__':
     r = ExcelReader("./1801.xlsx")
     s = r.read_excel()
+    print("update")
     print(s)
